@@ -9,6 +9,8 @@ body {
 
 .App {
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 code {
@@ -16,33 +18,36 @@ code {
 		monospace;
 }
 .name {
-	font-size: 58px;
+	font-size: 4vw;
 	text-align: left;
 	color: #8795ce;
+	margin-bottom: 0;
 }
 .bioText {
-	font-size: 44px;
+	font-size: 2vw;
 	text-align: left;
+	margin-bottom: 0vh;
 }
 .bio {
-	margin-left: 20px;
-	width: 85%;
-	margin-top: 40px;
+	margin-top: 0vh;
 }
 .contact {
-	margin-top: 120px;
+	margin-top: 6vh;
 	align-items: center;
 	justify-content: center;
-	margin-right: 100px;
+	margin-right: 5vw;
 }
 
 img {
-	height: 500px;
+	--pic-height: 52vh;
+	height: var(--pic-height);
+	width: calc(var(--pic-height) / 1.2);
 }
 
 .icon {
-	height: 40px;
-	margin: 5px;
+	height: 6vh;
+	width: min(6vw, 6vh);
+	margin: 1vw;
 }
 
 .icon:hover {
@@ -50,21 +55,24 @@ img {
 }
 
 .cardImg {
-	height: 180px;
-	width: 300px;
+	height: 21vh;
+	width: 17vw;
 }
 
-.App {
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-}
 .left {
-	margin-left: 10px;
+	margin-left: 6vw;
+	margin-top: 0;
+	margin-right: 2vw;
 }
 
 .projects {
 	display: flex;
+	margin-left: 0;
+}
+
+.projects h2 {
+	font-size: 5vh;
+	margin-bottom: 0;
 }
 
 .projectDisplay {
@@ -77,8 +85,9 @@ img {
 }
 
 .card {
-	margin: 5px;
+	margin: 1vh;
 	transition: transform 0.3s ease-in-out;
+	margin-top: 0;
 }
 .card:hover {
 	transform: scale(1.1);
@@ -89,8 +98,14 @@ img {
 }
 h2 {
 	color: #8795ce;
-	font-size: 30px;
+	font-size: 4vh;
 	text-decoration: underline;
+}
+
+.projectTitle {
+	height: 5vh;
+	margin-bottom: 3vh;
+	font-size: 2.4vh;
 }
 
 a:link {
@@ -105,4 +120,17 @@ a:hover {
 
 .email {
 	color: #8795ce;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.education {
+	font-size: 2.2vh;
+	margin-bottom: 0;
+}
+h4 {
+	margin-bottom: 0;
+}
+
+#message {
+	font-size: 2.5vh;
 }

@@ -24,7 +24,7 @@ function Contact() {
 				src={portfolioPic}
 				alt="Portfolio picture"
 			/>
-			<div>
+			<div className="education">
 				<h4>Flatiron School - Software Engineering Program - 2023</h4>
 				<h4>University of Wisconsin La Crosse - BS Biology - 2019</h4>
 			</div>
