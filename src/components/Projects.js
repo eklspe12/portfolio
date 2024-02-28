@@ -16,7 +16,7 @@ function Projects() {
 					<ProjectCard
 						title="Store Demo"
 						projectImage={storeDemo}
-						link="https://spencereklund-store-demo.onrender.com/"
+						link="https://demo-store-4cko.onrender.com/"
 					/>
 				</div>
 			</div>
